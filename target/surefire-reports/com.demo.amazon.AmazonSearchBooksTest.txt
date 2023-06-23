@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.demo.amazon.AmazonSearchBooksTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 38.849 s - in com.demo.amazon.AmazonSearchBooksTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 74.536 s - in com.demo.amazon.AmazonSearchBooksTest

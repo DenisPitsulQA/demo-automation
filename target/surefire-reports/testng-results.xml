@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-23T12:12:33 EEST" name="Surefire suite" finished-at="2023-06-23T12:13:10 EEST" duration-ms="36382">
+  <suite started-at="2023-06-23T14:24:18 EEST" name="Surefire suite" finished-at="2023-06-23T14:25:28 EEST" duration-ms="69948">
     <groups>
     </groups>
-    <test started-at="2023-06-23T12:12:33 EEST" name="Surefire test" finished-at="2023-06-23T12:13:10 EEST" duration-ms="36382">
+    <test started-at="2023-06-23T14:24:18 EEST" name="Surefire test" finished-at="2023-06-23T14:25:28 EEST" duration-ms="69948">
       <class name="com.demo.amazon.AmazonSearchBooksTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demo.amazon.AmazonSearchBooksTest@34c01041]" started-at="2023-06-23T12:12:33 EEST" name="setUp" description="Opening web browser..." finished-at="2023-06-23T12:12:41 EEST" duration-ms="8070" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demo.amazon.AmazonSearchBooksTest@3c35c345]" started-at="2023-06-23T14:24:18 EEST" name="setUp" description="Opening web browser..." finished-at="2023-06-23T14:24:36 EEST" duration-ms="17842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchBooksTest()[pri:0, instance:com.demo.amazon.AmazonSearchBooksTest@34c01041]" started-at="2023-06-23T12:12:42 EEST" name="searchBooksTest" finished-at="2023-06-23T12:13:08 EEST" duration-ms="25733" status="PASS">
+        <test-method signature="searchBooksTest()[pri:0, instance:com.demo.amazon.AmazonSearchBooksTest@3c35c345]" started-at="2023-06-23T14:24:36 EEST" name="searchBooksTest" finished-at="2023-06-23T14:25:25 EEST" duration-ms="49052" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchBooksTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.amazon.AmazonSearchBooksTest@34c01041]" started-at="2023-06-23T12:13:08 EEST" name="tearDown" description="Closing web browser..." finished-at="2023-06-23T12:13:10 EEST" duration-ms="2043" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.amazon.AmazonSearchBooksTest@3c35c345]" started-at="2023-06-23T14:25:25 EEST" name="tearDown" description="Closing web browser..." finished-at="2023-06-23T14:25:28 EEST" duration-ms="2308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

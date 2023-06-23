@@ -4,6 +4,7 @@ import com.codeborne.selenide.SelenideElement;
 import com.demo.core.base.PageTools;
 import com.demo.entities.Book;
 import com.demo.pages.components.SearchResultItemComponent;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 
 import java.util.ArrayList;
@@ -23,6 +24,7 @@ public class AmazonSearchResultsPage extends PageTools {
         }
     }
 
+    @Step("Get book list from search results page")
     public List<Book> getBookList() {
         List<Book> bookList = new ArrayList<>();
         for (SearchResultItemComponent searchResultItemComponent: searchResultItemComponentList) {

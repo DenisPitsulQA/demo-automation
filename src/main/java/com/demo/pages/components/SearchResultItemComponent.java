@@ -2,6 +2,7 @@ package com.demo.pages.components;
 
 import com.codeborne.selenide.SelenideElement;
 import com.demo.core.base.ComponentsTools;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 
 import java.util.ArrayList;
@@ -17,18 +18,23 @@ public class SearchResultItemComponent extends ComponentsTools {
     public SearchResultItemComponent(String baseXPath) {
         super(baseXPath);
     }
+
+    @Step("Check if book is best seller")
     public boolean isBestSeller() {
         return isElementVisible(new By.ByXPath(baseXPath + bestSellerElemListXPath));
     }
 
+    @Step("Get book name")
     public String getBookName() {
         return getElementText(new By.ByXPath(baseXPath + nameElemXPath));
     }
 
+    @Step("Get book author")
     public String getAuthor() {
         return getElementText(new By.ByXPath(baseXPath + authorElemXPath));
     }
 
+    @Step("Get book prices")
     public List<String> getPrices() {
         List<SelenideElement> priceSelenideElements = getElementsWithZeroOption(new By.ByXPath(baseXPath + priceElemListXPath));
         List<String> prices = new ArrayList<>();
