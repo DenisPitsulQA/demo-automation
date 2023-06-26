@@ -2,24 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-23T14:24:18 EEST" name="Surefire suite" finished-at="2023-06-23T14:25:28 EEST" duration-ms="69948">
+  <suite started-at="2023-06-26T10:22:21 EEST" name="Surefire suite" finished-at="2023-06-26T10:23:29 EEST" duration-ms="68194">
     <groups>
     </groups>
-    <test started-at="2023-06-23T14:24:18 EEST" name="Surefire test" finished-at="2023-06-23T14:25:28 EEST" duration-ms="69948">
-      <class name="com.demo.amazon.AmazonSearchBooksTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demo.amazon.AmazonSearchBooksTest@3c35c345]" started-at="2023-06-23T14:24:18 EEST" name="setUp" description="Opening web browser..." finished-at="2023-06-23T14:24:36 EEST" duration-ms="17842" status="PASS">
+    <test started-at="2023-06-26T10:22:21 EEST" name="Surefire test" finished-at="2023-06-26T10:23:29 EEST" duration-ms="68194">
+      <class name="com.demo.api.CurrencyApiTest">
+        <test-method is-config="true" signature="initClient()[pri:0, instance:com.demo.api.CurrencyApiTest@497aec8c]" started-at="2023-06-26T10:22:21 EEST" name="initClient" finished-at="2023-06-26T10:22:21 EEST" duration-ms="268" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="searchBooksTest()[pri:0, instance:com.demo.amazon.AmazonSearchBooksTest@3c35c345]" started-at="2023-06-23T14:24:36 EEST" name="searchBooksTest" finished-at="2023-06-23T14:25:25 EEST" duration-ms="49052" status="PASS">
+        </test-method> <!-- initClient -->
+        <test-method signature="currencyApiTest()[pri:0, instance:com.demo.api.CurrencyApiTest@497aec8c]" started-at="2023-06-26T10:22:21 EEST" name="currencyApiTest" finished-at="2023-06-26T10:23:28 EEST" duration-ms="66951" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchBooksTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.amazon.AmazonSearchBooksTest@3c35c345]" started-at="2023-06-23T14:25:25 EEST" name="tearDown" description="Closing web browser..." finished-at="2023-06-23T14:25:28 EEST" duration-ms="2308" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.demo.amazon.AmazonSearchBooksTest -->
+        </test-method> <!-- currencyApiTest -->
+      </class> <!-- com.demo.api.CurrencyApiTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

@@ -8,10 +8,13 @@ D:\TestMatick\Archive\src\main\java\com\demo\actions\MainActions.java
 D:\TestMatick\Archive\src\main\java\com\demo\core\utils\LocatorParser.java
 D:\TestMatick\Archive\src\main\java\com\demo\actions\AmazonProductDetailsActions.java
 D:\TestMatick\Archive\src\main\java\com\demo\pages\LoginPage.java
+D:\TestMatick\Archive\src\main\java\com\demo\pages\RandomNumberServicePage.java
 D:\TestMatick\Archive\src\main\java\com\demo\core\allure\AllureLogger.java
 D:\TestMatick\Archive\src\main\java\com\demo\pages\EmailPage.java
 D:\TestMatick\Archive\src\main\java\com\demo\pages\VisitPage.java
+D:\TestMatick\Archive\src\main\java\com\demo\api\models\CurrencyConvertResponse.java
 D:\TestMatick\Archive\src\main\java\com\demo\actions\LoginActions.java
+D:\TestMatick\Archive\src\main\java\com\demo\api\clients\BaseClient.java
 D:\TestMatick\Archive\src\main\java\com\demo\pages\AmazonHomePage.java
 D:\TestMatick\Archive\src\main\java\com\demo\pages\CreateRegisterPage.java
 D:\TestMatick\Archive\src\main\java\com\demo\core\utils\Constants.java
@@ -26,10 +29,13 @@ D:\TestMatick\Archive\src\main\java\com\demo\core\base\PageTools.java
 D:\TestMatick\Archive\src\main\java\com\demo\pages\components\HeaderComponent.java
 D:\TestMatick\Archive\src\main\java\com\demo\core\utils\SelenideTools.java
 D:\TestMatick\Archive\src\main\java\com\demo\entities\User.java
+D:\TestMatick\Archive\src\main\java\com\demo\api\clients\CurrencyClient.java
 D:\TestMatick\Archive\src\main\java\com\demo\core\base\BaseTest.java
+D:\TestMatick\Archive\src\main\java\com\demo\api\models\USD_CNY_Result.java
 D:\TestMatick\Archive\src\main\java\com\demo\core\allure\AllureTools.java
 D:\TestMatick\Archive\src\main\java\com\demo\pages\AmazonSearchResultsPage.java
 D:\TestMatick\Archive\src\main\java\com\demo\pages\RegistrationPage.java
 D:\TestMatick\Archive\src\main\java\com\demo\entities\Book.java
+D:\TestMatick\Archive\src\main\java\com\demo\actions\RandomNumberServiceActions.java
 D:\TestMatick\Archive\src\main\java\com\demo\actions\AssetActions.java
 D:\TestMatick\Archive\src\main\java\com\demo\core\base\BaseActions.java

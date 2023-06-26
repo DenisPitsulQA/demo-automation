@@ -10,6 +10,7 @@ public class Pages {
     private static AmazonHomePage amazonHomePage;
     private static AmazonProductDetailPage amazonProductDetailPage;
     private static AmazonSearchResultsPage amazonSearchResultsPage;
+    private static RandomNumberServicePage randomNumberServicePage;
 
     public static VisitPage visitPage() {
         if (visitPage == null) {
@@ -72,5 +73,12 @@ public class Pages {
             amazonSearchResultsPage = new AmazonSearchResultsPage();
         }
         return amazonSearchResultsPage;
+    }
+
+    public static RandomNumberServicePage randomNumberServicePage() {
+        if (randomNumberServicePage == null) {
+            randomNumberServicePage = new RandomNumberServicePage();
+        }
+        return randomNumberServicePage;
     }
 }

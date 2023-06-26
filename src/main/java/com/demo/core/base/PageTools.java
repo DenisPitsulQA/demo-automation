@@ -111,6 +111,13 @@ public class PageTools extends AllureLogger {
         builder.perform();
     }
 
+    protected void clearAndType(String text, By by, Object... args) {
+        logInfo(getPreviousMethodNameAsText() + " '" + text);
+        wipeText(by, args);
+        shouldBe(Condition.visible, by, args).clear();
+        shouldBe(Condition.visible, by, args).append(text);
+    }
+
     protected void type(String text, By by, Object... args) {
         logInfo(getPreviousMethodNameAsText() + " '" + text);
         wipeText(by, args);

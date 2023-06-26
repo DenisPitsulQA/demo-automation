@@ -2,6 +2,7 @@ com\demo\core\config\SelenideConfig.class
 com\demo\actions\AmazonProductDetailsActions.class
 com\demo\actions\LoginActions.class
 com\demo\pages\LoginPage.class
+com\demo\api\models\CurrencyConvertResponse.class
 com\demo\pages\VisitPage.class
 com\demo\core\allure\AllureLogger$1.class
 com\demo\pages\Pages.class
@@ -12,11 +13,13 @@ com\demo\core\utils\LocatorParser.class
 com\demo\entities\User.class
 com\demo\pages\RegistrationPage.class
 com\demo\pages\components\HeaderComponent.class
+com\demo\api\models\USD_CNY_Result.class
 com\demo\core\utils\Random.class
 com\demo\pages\AmazonHomePage.class
 com\demo\actions\Actions.class
 com\demo\core\allure\AllureLogger.class
 com\demo\pages\CreateRegisterPage.class
+com\demo\actions\RandomNumberServiceActions.class
 com\demo\pages\AmazonSearchResultsPage.class
 com\demo\actions\CreateRegisterActions.class
 com\demo\pages\AssetPage.class
@@ -24,6 +27,8 @@ com\demo\actions\EmailActions.class
 com\demo\actions\RegistrationActions.class
 com\demo\core\base\PageTools.class
 com\demo\core\base\BaseTest.class
+com\demo\api\clients\BaseClient.class
+com\demo\api\clients\CurrencyClient.class
 com\demo\pages\components\SearchResultItemComponent.class
 com\demo\core\base\TestListener.class
 com\demo\actions\AssetActions.class
@@ -35,3 +40,4 @@ com\demo\core\utils\Constants.class
 com\demo\pages\AmazonProductDetailPage.class
 com\demo\core\base\BaseActions.class
 com\demo\actions\MainActions.class
+com\demo\pages\RandomNumberServicePage.class

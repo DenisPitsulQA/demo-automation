@@ -9,6 +9,7 @@ public class Actions {
     private static EmailActions emailActions;
     private static AmazonSearchBooksActions amazonSearchBooksActions;
     private static AmazonProductDetailsActions amazonProductDetailsActions;
+    private static RandomNumberServiceActions randomNumberServiceActions;
 
     public static MainActions mainActions() {
         if (mainActions == null) {
@@ -64,6 +65,13 @@ public class Actions {
             amazonProductDetailsActions = new AmazonProductDetailsActions();
         }
         return amazonProductDetailsActions;
+    }
+
+    public static RandomNumberServiceActions randomNumberServiceActions() {
+        if (randomNumberServiceActions == null) {
+            randomNumberServiceActions = new RandomNumberServiceActions();
+        }
+        return randomNumberServiceActions;
     }
 
 }
